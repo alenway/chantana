@@ -1,73 +1,50 @@
-# 💬 MyChat — Cross-Platform Chat App
+# Welcome to your Expo app 👋
 
-A beautifully designed **chat application** built with **React Native (Expo)** that works seamlessly on **Android, iOS, and Web**. Includes modern UI/UX inspired by WhatsApp and Telegram, with real-time messaging powered by Firebase.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
----
+## Get started
 
-## 🔗 Live Previews
+1. Install dependencies
 
-| Platform        | Link                                                   |
-| --------------- | ------------------------------------------------------ |
-| 🌐 Web Demo     | [Live Website](https://your-web-demo-link.vercel.app)  |
-| 📱 APK Download | [Download APK](https://your-apk-link.com)              |
-| 📱 Expo Preview | Scan QR with Expo Go: ![QR Code](./assets/qr-code.png) |
+   ```bash
+   npm install
+   ```
 
----
+2. Start the app
 
-## 🎨 UI/UX Design (Figma)
+   ```bash
+   npx expo start
+   ```
 
-| Screen             | Preview                                        |
-| ------------------ | ---------------------------------------------- |
-| ✅ Chat List       | ![Chat List](./assets/figma-chat-list.png)     |
-| ✅ One-on-One Chat | ![Chat Screen](./assets/figma-chat-screen.png) |
-| ✅ Login / Signup  | ![Login](./assets/figma-login.png)             |
+In the output, you'll find options to open the app in a
 
-📁 View full design on Figma: [Figma Link](https://www.figma.com/file/your-design)
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
----
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## 🚀 Features
+## Get a fresh project
 
--   🔐 Firebase Auth (Email Login)
--   💬 Real-Time Chat using Firestore
--   📤 Media Upload (images/files)
--   🧑‍🤝‍🧑 Group Chat UI (design only)
--   ⚡ Typing Indicator (optional)
--   🎨 Beautiful modern UI
--   🌐 Cross-platform (Web + Mobile)
-
----
-
-## 🛠️ Tech Stack
-
-| Layer    | Technology                            |
-| -------- | ------------------------------------- |
-| Frontend | React Native (Expo)                   |
-| Backend  | Firebase (Firestore + Auth + Storage) |
-| Styling  | React Native StyleSheet               |
-| Preview  | Expo Go, Web Export                   |
-| Design   | Figma                                 |
-
----
-
-## 🧩 Folder Structure
-
-my-chat-app/
-├── App.js
-├── assets/
-├── components/ ← Reusable UI components
-├── screens/ ← Login, Chat, Home screens
-├── firebase/ ← Firebase config and services
-├── utils/ ← Constants, helpers
-└── README.md
-
----
-
-## 📦 Getting Started
+When you're ready, run:
 
 ```bash
-git clone https://github.com/your-username/my-chat-app.git
-cd my-chat-app
-npm install
-npx expo start
+npm run reset-project
 ```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
