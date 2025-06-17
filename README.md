@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# 🗨️ Chant App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**A real-time chat application for Web and Mobile**
+Built to explore and understand how real-time communication works using **web sockets**, real-time databases, and cross-platform development.
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 About the Project
 
-   ```bash
-   npm install
-   ```
+Chant App is a **chat application** designed for both **Web** (built with **Next.js**) and **Mobile** (built with **React Native + Expo**) platforms.
+The project is primarily created for learning purposes:
 
-2. Start the app
+-   Understand how **socket-based communication** works
+-   Learn the architecture behind **real-time data transfer**
+-   Gain practical experience in **DevOps**, **CI/CD**, and **cross-platform development**
+-   Integrate **Firebase** for real-time data and authentication
+-   Work with modern developer tools like **Docker**, **Husky**, and GitHub Actions
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 💡 Key Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-   🔌 Real-time messaging using **Socket.IO**
+-   🌐 Cross-platform support (Web + Mobile)
+-   👥 Group and private chat support
+-   🟢 Online/offline presence indicators
+-   ✍️ Typing indicators
+-   📱 Responsive and modern UI
+-   🐳 Dockerized backend
+-   ⚙️ CI/CD integration via GitHub Actions
+-   ✅ Code quality enforcement with **Husky** Git hooks
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠 Tech Stack
 
-When you're ready, run:
+### Frontend
 
-```bash
-npm run reset-project
-```
+-   **Next.js** (React Framework with SSR and API routes)
+-   **React Native + Expo** (for mobile)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Backend
 
-## Learn more
+-   **Node.js**
+-   **Express.js**
+-   **Socket.IO**
 
-To learn more about developing your project with Expo, look at the following resources:
+### Database & Authentication
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+-   **Firebase** (Cloud Firestore + Firebase Auth)
 
-## Join the community
+### DevOps & Tooling
 
-Join our community of developers creating universal apps.
+-   **Docker** (containerization)
+-   **CI/CD** with GitHub Actions
+-   **Husky** (Git hooks for linting & formatting)
+-   **Figma** (for UI/UX design)
+-   **Git + GitHub**
+-   **VS Code**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📁 Folder Structure
+
+chant-app/
+├── web/ # Next.js frontend
+├── mobile/ # React Native (Expo) app
+├── server/ # Node.js backend with Socket.IO
+├── .husky/ # Git hooks configuration
+├── .github/workflows/ # CI/CD pipeline configs
+├── docker/ # Docker and docker-compose files
+└── README.md
