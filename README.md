@@ -81,3 +81,10 @@ npx husky add .husky/pre-commit "npm run lint"
 npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
 npm install --save-dev @commitlint/{config-conventional,cli}
 Create commitlint.config.js
+
+## how to run application
+
+```
+npm expo start
+
+```
