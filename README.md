@@ -66,7 +66,18 @@ chant-app/
 ├── web/ # Next.js frontend
 ├── mobile/ # React Native (Expo) app
 ├── server/ # Node.js backend with Socket.IO
-├── .husky/ # Git hooks configuration
+├── .husky/
+│ └── pre-commit # Git hooks configuration
 ├── .github/workflows/ # CI/CD pipeline configs
 ├── docker/ # Docker and docker-compose files
 └── README.md
+
+<!-- huskey commands -->
+
+# Install Husky and add a pre-commit hook
+
+npx husky-init && npm install
+npx husky add .husky/pre-commit "npm run lint"
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+npm install --save-dev @commitlint/{config-conventional,cli}
+Create commitlint.config.js
