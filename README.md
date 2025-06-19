@@ -74,7 +74,7 @@ chant-app/
 
 <!-- huskey commands -->
 
-# Install Husky and add a pre-commit hook
+<!-- # Install Husky and add a pre-commit hook
 
 npx husky-init && npm install
 npx husky add .husky/pre-commit "npm run lint"
@@ -87,4 +87,4 @@ Create commitlint.config.js
 ```
 npm expo start
 
-```
+``` -->
